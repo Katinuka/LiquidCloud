@@ -487,15 +487,15 @@
               }
             },
             {
-              "name": "InvOpen",
+              "name": "RequiresInventoryOpen",
               "value": true
             },
             {
-              "name": "NoMove",
+              "name": "RequiresNoMovement",
               "value": true
             },
             {
-              "name": "NoRotation",
+              "name": "RequiresNoRotation",
               "value": true
             }
           ]
@@ -721,8 +721,8 @@
                     {
                       "name": "Timing",
                       "value": {
-                        "from": 1.0,
-                        "to": 1.0
+                        "from": 0.9,
+                        "to": 0.9
                       }
                     }
                   ]
@@ -1038,15 +1038,15 @@
               }
             },
             {
-              "name": "InvOpen",
+              "name": "RequiresInventoryOpen",
               "value": true
             },
             {
-              "name": "NoMove",
+              "name": "RequiresNoMovement",
               "value": true
             },
             {
-              "name": "NoRotation",
+              "name": "RequiresNoRotation",
               "value": false
             }
           ]
@@ -1421,15 +1421,15 @@
                   }
                 },
                 {
-                  "name": "InvOpen",
+                  "name": "RequiresInventoryOpen",
                   "value": true
                 },
                 {
-                  "name": "NoMove",
+                  "name": "RequiresNoMovement",
                   "value": false
                 },
                 {
-                  "name": "NoRotation",
+                  "name": "RequiresNoRotation",
                   "value": false
                 }
               ]
@@ -2919,15 +2919,15 @@
               }
             },
             {
-              "name": "InvOpen",
+              "name": "RequiresInventoryOpen",
               "value": false
             },
             {
-              "name": "NoMove",
+              "name": "RequiresNoMovement",
               "value": false
             },
             {
-              "name": "NoRotation",
+              "name": "RequiresNoRotation",
               "value": false
             }
           ]
@@ -3090,8 +3090,8 @@
                 {
                   "name": "Timing",
                   "value": {
-                    "from": 1.0,
-                    "to": 1.0
+                    "from": 0.9,
+                    "to": 0.9
                   }
                 }
               ]

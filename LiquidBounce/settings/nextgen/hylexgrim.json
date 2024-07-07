@@ -19,18 +19,18 @@
         },
         {
           "name": "Range",
-          "value": 4.2
+          "value": 5.0
         },
         {
           "name": "OnClick",
           "value": [
             {
               "name": "Enabled",
-              "value": false
+              "value": true
             },
             {
               "name": "DelayUntilStop",
-              "value": 3
+              "value": 7
             }
           ]
         },
@@ -56,15 +56,15 @@
           "value": [
             {
               "name": "PredictClientMovement",
-              "value": 5
+              "value": 0
             },
             {
               "name": "TimeEnemyOffset",
-              "value": -0.4
+              "value": 0.0
             },
             {
               "name": "GaussianOffset",
-              "value": true
+              "value": false
             },
             {
               "name": "OutOfBox",
@@ -72,7 +72,7 @@
             },
             {
               "name": "ShrinkBox",
-              "value": 0.05
+              "value": 0.0
             },
             {
               "name": "HighestPoint",
@@ -80,7 +80,7 @@
             },
             {
               "name": "LowestPoint",
-              "value": "Body"
+              "value": "Feet"
             }
           ]
         },
@@ -98,15 +98,15 @@
                     {
                       "name": "HorizontalTurnSpeed",
                       "value": {
-                        "from": 40.0,
-                        "to": 60.0
+                        "from": 180.0,
+                        "to": 180.0
                       }
                     },
                     {
                       "name": "VerticalTurnSpeed",
                       "value": {
-                        "from": 5.0,
-                        "to": 15.0
+                        "from": 180.0,
+                        "to": 180.0
                       }
                     }
                   ]
@@ -188,15 +188,15 @@
             },
             {
               "name": "ResetThreshold",
-              "value": 2.0
+              "value": 1.0
             },
             {
               "name": "TicksUntilReset",
-              "value": 5
+              "value": 1
             },
             {
               "name": "ChangeLook",
-              "value": false
+              "value": true
             }
           ]
         }
@@ -211,7 +211,7 @@
         },
         {
           "name": "Mode",
-          "value": "JumpFreely"
+          "value": "GhostBlock"
         }
       ]
     },
@@ -224,7 +224,7 @@
         },
         {
           "name": "Mode",
-          "active": "Random",
+          "active": "Custom",
           "value": [],
           "choices": {
             "Old": {
@@ -243,7 +243,7 @@
                   "value": [
                     {
                       "name": "Enabled",
-                      "value": true
+                      "value": false
                     },
                     {
                       "name": "IgnoreOpenInventory",
@@ -384,7 +384,7 @@
                     },
                     {
                       "name": "Delay",
-                      "value": 5
+                      "value": 20
                     }
                   ]
                 },
@@ -394,7 +394,7 @@
                 },
                 {
                   "name": "Move",
-                  "value": true
+                  "value": false
                 }
               ]
             }
@@ -408,7 +408,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": true
+          "value": false
         },
         {
           "name": "Mode",
@@ -446,15 +446,15 @@
                 },
                 {
                   "name": "Duplicate",
-                  "value": true
+                  "value": false
                 },
                 {
                   "name": "NoGameMode",
-                  "value": true
+                  "value": false
                 },
                 {
                   "name": "IllegalPitch",
-                  "value": true
+                  "value": false
                 },
                 {
                   "name": "FakeEntityID",
@@ -500,7 +500,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         },
         {
           "name": "LimitExplosionStrength",
@@ -580,7 +580,7 @@
           "value": [
             {
               "name": "Enabled",
-              "value": false
+              "value": true
             }
           ]
         },
@@ -600,7 +600,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": true
+          "value": false
         },
         {
           "name": "VoidLevel",
@@ -608,7 +608,7 @@
         },
         {
           "name": "VelocityTimeout",
-          "value": true
+          "value": false
         }
       ]
     },
@@ -653,22 +653,22 @@
             {
               "name": "StartDelay",
               "value": {
-                "from": 0,
-                "to": 0
+                "from": 1,
+                "to": 2
               }
             },
             {
               "name": "ClickDelay",
               "value": {
-                "from": 2,
-                "to": 3
+                "from": 4,
+                "to": 4
               }
             },
             {
               "name": "CloseDelay",
               "value": {
-                "from": 0,
-                "to": 0
+                "from": 1,
+                "to": 2
               }
             },
             {
@@ -684,11 +684,11 @@
             },
             {
               "name": "RequiresNoRotation",
-              "value": false
+              "value": true
             },
             {
               "name": "RequiresInventoryOpen",
-              "value": false
+              "value": true
             }
           ]
         },
@@ -714,13 +714,13 @@
             },
             {
               "name": "Charged",
-              "value": 10
+              "value": 20
             },
             {
               "name": "ChargedRandom",
               "value": {
-                "from": -1.62,
-                "to": 0.82
+                "from": 0.0,
+                "to": 0.0
               }
             },
             {
@@ -729,7 +729,7 @@
             },
             {
               "name": "AimThreshold",
-              "value": 1.5
+              "value": 2.0
             },
             {
               "name": "RequiresHypotheticalHit",
@@ -761,7 +761,7 @@
                 },
                 {
                   "name": "Priority",
-                  "value": "Distance"
+                  "value": "Direction"
                 }
               ]
             },
@@ -869,11 +869,11 @@
                 },
                 {
                   "name": "ResetThreshold",
-                  "value": 2.0
+                  "value": 1.0
                 },
                 {
                   "name": "TicksUntilReset",
-                  "value": 5
+                  "value": 1
                 },
                 {
                   "name": "ChangeLook",
@@ -892,11 +892,11 @@
             },
             {
               "name": "Speed",
-              "value": 20
+              "value": 3
             },
             {
               "name": "NotInTheAir",
-              "value": true
+              "value": false
             },
             {
               "name": "NotDuringMove",
@@ -928,14 +928,14 @@
       "value": [
         {
           "name": "Enabled",
-          "value": true
+          "value": false
         },
         {
           "name": "Soup",
           "value": [
             {
               "name": "Enabled",
-              "value": false
+              "value": true
             },
             {
               "name": "Health",
@@ -960,7 +960,7 @@
                   "name": "Wait",
                   "value": {
                     "from": 1,
-                    "to": 2
+                    "to": 1
                   }
                 }
               ]
@@ -972,7 +972,7 @@
           "value": [
             {
               "name": "Enabled",
-              "value": false
+              "value": true
             },
             {
               "name": "Health",
@@ -1004,7 +1004,7 @@
                 },
                 {
                   "name": "Health",
-                  "value": 70
+                  "value": 40
                 }
               ]
             },
@@ -1031,15 +1031,15 @@
             },
             {
               "name": "TillGroundDistance",
-              "value": 1.5
+              "value": 2.0
             },
             {
               "name": "DoNotBenefitOthers",
-              "value": false
+              "value": true
             },
             {
               "name": "AllowLingering",
-              "value": false
+              "value": true
             }
           ]
         },
@@ -1095,7 +1095,7 @@
             },
             {
               "name": "Health",
-              "value": 60
+              "value": 40
             },
             {
               "name": "ConsiderAbsorption",
@@ -1108,20 +1108,20 @@
           "value": [
             {
               "name": "Enabled",
-              "value": true
+              "value": false
             },
             {
               "name": "DelayIn",
               "value": {
-                "from": 1,
-                "to": 1
+                "from": 2,
+                "to": 3
               }
             },
             {
               "name": "DelayOut",
               "value": {
-                "from": 1,
-                "to": 1
+                "from": 3,
+                "to": 3
               }
             }
           ]
@@ -1146,8 +1146,8 @@
                 {
                   "name": "ClickDelay",
                   "value": {
-                    "from": 2,
-                    "to": 3
+                    "from": 1,
+                    "to": 1
                   }
                 },
                 {
@@ -1170,11 +1170,11 @@
                 },
                 {
                   "name": "RequiresNoRotation",
-                  "value": false
+                  "value": true
                 },
                 {
                   "name": "RequiresInventoryOpen",
-                  "value": false
+                  "value": true
                 }
               ]
             }
@@ -1284,11 +1284,11 @@
             },
             {
               "name": "ResetThreshold",
-              "value": 2.0
+              "value": 1.0
             },
             {
               "name": "TicksUntilReset",
-              "value": 3
+              "value": 1
             },
             {
               "name": "ChangeLook",
@@ -1311,7 +1311,7 @@
       "value": [
         {
           "name": "Model",
-          "value": "gpt-4"
+          "value": "gpt-3.5-turbo"
         },
         {
           "name": "ReactionTime",
@@ -1366,8 +1366,8 @@
                 {
                   "name": "CPS",
                   "value": {
-                    "from": 5,
-                    "to": 8
+                    "from": 20,
+                    "to": 20
                   }
                 },
                 {
@@ -1379,13 +1379,13 @@
                   "value": [
                     {
                       "name": "Enabled",
-                      "value": true
+                      "value": false
                     },
                     {
                       "name": "Timing",
                       "value": {
-                        "from": 0.9,
-                        "to": 0.9
+                        "from": 1.0,
+                        "to": 1.0
                       }
                     }
                   ]
@@ -1415,7 +1415,7 @@
           "value": [
             {
               "name": "Enabled",
-              "value": false
+              "value": true
             },
             {
               "name": "ClickScheduler",
@@ -1423,8 +1423,8 @@
                 {
                   "name": "CPS",
                   "value": {
-                    "from": 5,
-                    "to": 8
+                    "from": 20,
+                    "to": 20
                   }
                 },
                 {
@@ -1446,11 +1446,11 @@
         },
         {
           "name": "OnFlag",
-          "value": false
+          "value": true
         },
         {
           "name": "OnDeath",
-          "value": false
+          "value": true
         }
       ]
     },
@@ -1498,22 +1498,22 @@
         },
         {
           "name": "Range",
-          "value": 5.0
+          "value": 4.5
         },
         {
           "name": "WallRange",
-          "value": 0.0
+          "value": 4.5
         },
         {
           "name": "InteractDelay",
           "value": {
-            "from": 2,
-            "to": 3
+            "from": 1,
+            "to": 1
           }
         },
         {
           "name": "DisableOnFullInventory",
-          "value": false
+          "value": true
         },
         {
           "name": "fortune",
@@ -1524,7 +1524,7 @@
           "value": [
             {
               "name": "Enabled",
-              "value": false
+              "value": true
             },
             {
               "name": "ToPlace",
@@ -1707,11 +1707,11 @@
             },
             {
               "name": "ResetThreshold",
-              "value": 2.0
+              "value": 1.0
             },
             {
               "name": "TicksUntilReset",
-              "value": 5
+              "value": 1
             },
             {
               "name": "ChangeLook",
@@ -1762,7 +1762,7 @@
         },
         {
           "name": "Health",
-          "value": 8.0
+          "value": 7.0
         },
         {
           "name": "Delay",
@@ -1830,7 +1830,7 @@
         },
         {
           "name": "Delay",
-          "value": 5
+          "value": 0
         }
       ]
     },
@@ -1843,7 +1843,7 @@
         },
         {
           "name": "ThrowableType",
-          "value": "Egg and Snowball"
+          "value": "Anything"
         },
         {
           "name": "ClickScheduler",
@@ -1851,8 +1851,8 @@
             {
               "name": "CPS",
               "value": {
-                "from": 6,
-                "to": 11
+                "from": 20,
+                "to": 20
               }
             },
             {
@@ -1874,7 +1874,7 @@
             },
             {
               "name": "Priority",
-              "value": "Distance"
+              "value": "HurtTime"
             }
           ]
         },
@@ -1887,7 +1887,7 @@
             },
             {
               "name": "TimeEnemyOffset",
-              "value": 4.0
+              "value": 3.0
             },
             {
               "name": "GaussianOffset",
@@ -1899,7 +1899,7 @@
             },
             {
               "name": "ShrinkBox",
-              "value": 0.05
+              "value": 0.0
             },
             {
               "name": "HighestPoint",
@@ -1907,7 +1907,7 @@
             },
             {
               "name": "LowestPoint",
-              "value": "Body"
+              "value": "Head"
             }
           ]
         },
@@ -2011,15 +2011,15 @@
             },
             {
               "name": "FixVelocity",
-              "value": false
+              "value": true
             },
             {
               "name": "ResetThreshold",
-              "value": 2.0
+              "value": 1.0
             },
             {
               "name": "TicksUntilReset",
-              "value": 5
+              "value": 1
             },
             {
               "name": "ChangeLook",
@@ -2029,7 +2029,7 @@
         },
         {
           "name": "AimOffThreshold",
-          "value": 4.5
+          "value": 2.0
         },
         {
           "name": "SelectSlotAutomatically",
@@ -2058,7 +2058,7 @@
         },
         {
           "name": "IgnoreDurability",
-          "value": false
+          "value": true
         },
         {
           "name": "Search",
@@ -2070,7 +2070,7 @@
         },
         {
           "name": "SwapPreviousDelay",
-          "value": 20
+          "value": 7
         }
       ]
     },
@@ -2094,8 +2094,8 @@
             {
               "name": "ClickDelay",
               "value": {
-                "from": 2,
-                "to": 4
+                "from": 1,
+                "to": 1
               }
             },
             {
@@ -2114,15 +2114,15 @@
             },
             {
               "name": "RequiresNoMovement",
-              "value": false
+              "value": true
             },
             {
               "name": "RequiresNoRotation",
-              "value": false
+              "value": true
             },
             {
               "name": "RequiresInventoryOpen",
-              "value": false
+              "value": true
             }
           ]
         }
@@ -2172,7 +2172,7 @@
         },
         {
           "name": "TicksUntilReset",
-          "value": 20
+          "value": 7
         }
       ]
     },
@@ -2219,17 +2219,17 @@
         {
           "name": "Range",
           "value": {
-            "from": 2.6,
-            "to": 3.4
+            "from": 1.82,
+            "to": 2.95
           }
         },
         {
           "name": "Delay",
-          "value": 300
+          "value": 170
         },
         {
           "name": "BoxColor",
-          "value": 1931747218
+          "value": 1459617792
         }
       ]
     },
@@ -2254,22 +2254,22 @@
         },
         {
           "name": "AutoDisable",
-          "value": true
+          "value": false
         },
         {
           "name": "AutoReset",
           "value": [
             {
               "name": "Enabled",
-              "value": false
+              "value": true
             },
             {
               "name": "ResetAfter",
-              "value": 100
+              "value": 39
             },
             {
               "name": "ResetAction",
-              "value": "Reset"
+              "value": "Blink"
             }
           ]
         }
@@ -2298,8 +2298,34 @@
         {
           "name": "Blocks",
           "value": [
-            "minecraft:snow",
-            "minecraft:cobweb"
+            "minecraft:cobweb",
+            "minecraft:snow"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BungeeSpoofer",
+      "value": [
+        {
+          "name": "Enabled",
+          "value": false
+        },
+        {
+          "name": "Host",
+          "value": "127.0.0.1"
+        },
+        {
+          "name": "CustomUuid",
+          "value": [
+            {
+              "name": "Enabled",
+              "value": false
+            },
+            {
+              "name": "UUID",
+              "value": "85ac9d5ec3204e94933b3b0b8f6c512b"
+            }
           ]
         }
       ]
@@ -2317,22 +2343,22 @@
             {
               "name": "StartDelay",
               "value": {
-                "from": 1,
-                "to": 2
+                "from": 0,
+                "to": 0
               }
             },
             {
               "name": "ClickDelay",
               "value": {
-                "from": 2,
-                "to": 4
+                "from": 1,
+                "to": 1
               }
             },
             {
               "name": "CloseDelay",
               "value": {
-                "from": 1,
-                "to": 2
+                "from": 0,
+                "to": 0
               }
             },
             {
@@ -2348,7 +2374,7 @@
             },
             {
               "name": "RequiresNoRotation",
-              "value": false
+              "value": true
             }
           ]
         },
@@ -2362,11 +2388,11 @@
         },
         {
           "name": "MoveMode",
-          "value": "QuickMove"
+          "value": "DragAndDrop"
         },
         {
           "name": "QuickSwaps",
-          "value": true
+          "value": false
         },
         {
           "name": "CheckTitle",
@@ -2377,7 +2403,7 @@
           "value": [
             {
               "name": "Enabled",
-              "value": true
+              "value": false
             },
             {
               "name": "Range",
@@ -2385,7 +2411,7 @@
             },
             {
               "name": "WallRange",
-              "value": 3.0
+              "value": 0.0
             },
             {
               "name": "Delay",
@@ -2512,7 +2538,7 @@
                 },
                 {
                   "name": "FixVelocity",
-                  "value": false
+                  "value": true
                 },
                 {
                   "name": "ResetThreshold",
@@ -2541,19 +2567,19 @@
         },
         {
           "name": "Range",
-          "value": 500.0
+          "value": 10.0
         },
         {
           "name": "Cooldown",
-          "value": 0
+          "value": 120
         },
         {
           "name": "LagAfter",
-          "value": 10
+          "value": 120
         },
         {
           "name": "Jumps",
-          "value": 2
+          "value": 1
         },
         {
           "name": "StartDelay",
@@ -2591,11 +2617,11 @@
               "value": [
                 {
                   "name": "Horizontal",
-                  "value": 5
+                  "value": 0
                 },
                 {
                   "name": "Vertical",
-                  "value": 5
+                  "value": 0
                 },
                 {
                   "name": "RequiresStandOn",
@@ -2634,7 +2660,7 @@
         },
         {
           "name": "Packets",
-          "value": 100
+          "value": 1
         }
       ]
     },
@@ -2651,7 +2677,7 @@
         },
         {
           "name": "Mode",
-          "active": "Jump",
+          "active": "Packet",
           "value": [],
           "choices": {
             "None": {
@@ -2663,7 +2689,7 @@
               "value": [
                 {
                   "name": "Mode",
-                  "value": "NoCheatPlus"
+                  "value": "Grim"
                 },
                 {
                   "name": "PacketType",
@@ -2674,11 +2700,11 @@
                   "value": [
                     {
                       "name": "Enabled",
-                      "value": true
+                      "value": false
                     },
                     {
                       "name": "UnSprint",
-                      "value": false
+                      "value": true
                     }
                   ]
                 }
@@ -2697,11 +2723,11 @@
                 },
                 {
                   "name": "Range",
-                  "value": 4.0
+                  "value": 4.4
                 },
                 {
                   "name": "OptimizeForCooldown",
-                  "value": true
+                  "value": false
                 },
                 {
                   "name": "CheckKillaura",
@@ -2709,7 +2735,7 @@
                 },
                 {
                   "name": "CheckAutoClicker",
-                  "value": true
+                  "value": false
                 },
                 {
                   "name": "CanBeSeen",
@@ -2725,7 +2751,7 @@
           "value": [
             {
               "name": "Enabled",
-              "value": true
+              "value": false
             },
             {
               "name": "Fake",
@@ -2733,11 +2759,11 @@
             },
             {
               "name": "CritParticles",
-              "value": 1
+              "value": 19
             },
             {
               "name": "MagicParticles",
-              "value": 4
+              "value": 0
             }
           ]
         }
@@ -2858,11 +2884,11 @@
             },
             {
               "name": "ResetThreshold",
-              "value": 2.0
+              "value": 1.0
             },
             {
               "name": "TicksUntilReset",
-              "value": 5
+              "value": 7
             },
             {
               "name": "ChangeLook",
@@ -2883,7 +2909,7 @@
             },
             {
               "name": "MinEfficiency",
-              "value": 0.1
+              "value": 0.0
             }
           ]
         },
@@ -2900,7 +2926,7 @@
             },
             {
               "name": "MinEfficiency",
-              "value": 0.1
+              "value": 0.0
             }
           ]
         },
@@ -2932,11 +2958,11 @@
         },
         {
           "name": "Mode",
-          "value": "NCP"
+          "value": "Verus"
         },
         {
           "name": "Damage",
-          "value": 1
+          "value": 0
         }
       ]
     },
@@ -2946,6 +2972,31 @@
         {
           "name": "Motion",
           "value": 5.0
+        }
+      ]
+    },
+    {
+      "name": "DebugRecorder",
+      "value": [
+        {
+          "name": "Mode",
+          "active": "Generic",
+          "value": [],
+          "choices": {
+            "Generic": {
+              "name": "Generic",
+              "value": []
+            },
+            "CPS": {
+              "name": "CPS",
+              "value": []
+            },
+            "Aim": {
+              "name": "Aim",
+              "value": []
+            }
+          },
+          "valueType": "CHOICE"
         }
       ]
     },
@@ -3040,7 +3091,7 @@
         },
         {
           "name": "NotDuringSprint",
-          "value": false
+          "value": true
         }
       ]
     },
@@ -3071,6 +3122,19 @@
             "GrimSpectate": {
               "name": "GrimSpectate",
               "value": []
+            },
+            "VulcanScaffold": {
+              "name": "VulcanScaffold",
+              "value": []
+            },
+            "SpigotSpam": {
+              "name": "SpigotSpam",
+              "value": [
+                {
+                  "name": "Message",
+                  "value": "/skill"
+                }
+              ]
             }
           },
           "valueType": "CHOICE"
@@ -3099,14 +3163,18 @@
         },
         {
           "name": "Instant",
-          "value": true
+          "value": false
+        },
+        {
+          "name": "InstantStop",
+          "value": false
         },
         {
           "name": "Speed",
           "value": [
             {
               "name": "Enabled",
-              "value": true
+              "value": false
             },
             {
               "name": "Vertical",
@@ -3117,6 +3185,22 @@
               "value": 1.0
             }
           ]
+        },
+        {
+          "name": "Mode",
+          "active": "Vanilla",
+          "value": [],
+          "choices": {
+            "Static": {
+              "name": "Static",
+              "value": []
+            },
+            "Vanilla": {
+              "name": "Vanilla",
+              "value": []
+            }
+          },
+          "valueType": "CHOICE"
         }
       ]
     },
@@ -3129,11 +3213,11 @@
         },
         {
           "name": "EnforceSaddled",
-          "value": true
+          "value": false
         },
         {
           "name": "EnforceJumpStrength",
-          "value": true
+          "value": false
         }
       ]
     },
@@ -3142,20 +3226,20 @@
       "value": [
         {
           "name": "Enabled",
-          "value": true
+          "value": false
         },
         {
           "name": "Range",
           "value": {
             "from": 3.0,
-            "to": 5.0
+            "to": 7.0
           }
         },
         {
           "name": "Delay",
           "value": {
-            "from": 300,
-            "to": 550
+            "from": 1000,
+            "to": 1000
           }
         },
         {
@@ -3173,7 +3257,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         },
         {
           "name": "BreakDamage",
@@ -3181,7 +3265,7 @@
         },
         {
           "name": "Mode",
-          "active": "None",
+          "active": "AbortAnother",
           "value": [],
           "choices": {
             "None": {
@@ -3202,7 +3286,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         },
         {
           "name": "Cooldown",
@@ -3215,11 +3299,11 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         },
         {
           "name": "Mode",
-          "active": "ItemUseTime",
+          "active": "Immediate",
           "value": [],
           "choices": {
             "Immediate": {
@@ -3227,7 +3311,7 @@
               "value": [
                 {
                   "name": "Delay",
-                  "value": 10
+                  "value": 0
                 },
                 {
                   "name": "Timer",
@@ -3235,7 +3319,7 @@
                 },
                 {
                   "name": "Speed",
-                  "value": 10
+                  "value": 35
                 }
               ]
             },
@@ -3244,11 +3328,11 @@
               "value": [
                 {
                   "name": "ConsumeTime",
-                  "value": 17
+                  "value": 0
                 },
                 {
                   "name": "Speed",
-                  "value": 5
+                  "value": 35
                 }
               ]
             }
@@ -3257,7 +3341,7 @@
         },
         {
           "name": "NotInTheAir",
-          "value": true
+          "value": false
         },
         {
           "name": "NotDuringMove",
@@ -3290,7 +3374,7 @@
         },
         {
           "name": "Mode",
-          "active": "Vanilla",
+          "active": "Fireball",
           "value": [],
           "choices": {
             "Vanilla": {
@@ -3457,15 +3541,15 @@
               "value": [
                 {
                   "name": "Vertical",
-                  "value": 1.2
+                  "value": 0.0
                 },
                 {
                   "name": "StartStrafe",
-                  "value": 1.0
+                  "value": 0.6
                 },
                 {
                   "name": "StrafeDecrease",
-                  "value": 0.01
+                  "value": 0.0
                 }
               ]
             },
@@ -3486,7 +3570,7 @@
                         },
                         {
                           "name": "StopMove",
-                          "value": true
+                          "value": false
                         },
                         {
                           "name": "Jump",
@@ -3497,7 +3581,7 @@
                             },
                             {
                               "name": "Delay",
-                              "value": 3
+                              "value": 1
                             }
                           ]
                         },
@@ -3506,7 +3590,7 @@
                           "value": [
                             {
                               "name": "AngleSmooth",
-                              "active": "Linear",
+                              "active": "Sigmoid",
                               "value": [],
                               "choices": {
                                 "Linear": {
@@ -3534,15 +3618,15 @@
                                     {
                                       "name": "HorizontalTurnSpeed",
                                       "value": {
-                                        "from": 180.0,
-                                        "to": 180.0
+                                        "from": 91.18,
+                                        "to": 120.66
                                       }
                                     },
                                     {
                                       "name": "VerticalTurnSpeed",
                                       "value": {
-                                        "from": 180.0,
-                                        "to": 180.0
+                                        "from": 91.98,
+                                        "to": 116.7
                                       }
                                     },
                                     {
@@ -3605,11 +3689,11 @@
                             },
                             {
                               "name": "ResetThreshold",
-                              "value": 2.0
+                              "value": 1.0
                             },
                             {
                               "name": "TicksUntilReset",
-                              "value": 5
+                              "value": 2
                             },
                             {
                               "name": "ChangeLook",
@@ -3617,7 +3701,7 @@
                             },
                             {
                               "name": "Pitch",
-                              "value": 90.0
+                              "value": 45.0
                             },
                             {
                               "name": "Backwards",
@@ -3854,9 +3938,13 @@
                 },
                 {
                   "name": "AutoDisable",
-                  "value": false
+                  "value": true
                 }
               ]
+            },
+            "Vulcan286-Teleport-18": {
+              "name": "Vulcan286-Teleport-18",
+              "value": []
             },
             "Grim2859-V": {
               "name": "Grim2859-V",
@@ -3867,7 +3955,7 @@
                 },
                 {
                   "name": "Timer",
-                  "value": 0.446
+                  "value": 0.45
                 }
               ]
             },
@@ -3924,12 +4012,16 @@
                   "value": 0.4
                 },
                 {
-                  "name": "Glue",
+                  "name": "Strafe",
                   "value": true
                 },
                 {
-                  "name": "Strafe",
-                  "value": true
+                  "name": "Clipping",
+                  "value": -0.5
+                },
+                {
+                  "name": "Blink",
+                  "value": false
                 },
                 {
                   "name": "FallDamage",
@@ -3953,7 +4045,7 @@
             },
             {
               "name": "Stride",
-              "value": true
+              "value": false
             }
           ]
         }
@@ -3964,7 +4056,7 @@
       "value": [
         {
           "name": "Username",
-          "value": "Notch"
+          "value": "IgniteTNT"
         },
         {
           "name": "Combat",
@@ -4012,18 +4104,18 @@
         },
         {
           "name": "Range",
-          "value": 3.0
+          "value": 4.5
         },
         {
           "name": "WallRange",
-          "value": 0.0
+          "value": 4.5
         },
         {
           "name": "Entrance",
           "value": [
             {
               "name": "Enabled",
-              "value": true
+              "value": false
             },
             {
               "name": "BreakFree",
@@ -4033,33 +4125,33 @@
         },
         {
           "name": "Surroundings",
-          "value": true
+          "value": false
         },
         {
           "name": "Targets",
           "value": [
-            "minecraft:lime_bed",
-            "minecraft:cyan_bed",
-            "minecraft:red_bed",
-            "minecraft:light_gray_bed",
-            "minecraft:magenta_bed",
-            "minecraft:blue_bed",
-            "minecraft:brown_bed",
             "minecraft:green_bed",
-            "minecraft:dragon_egg",
-            "minecraft:pink_bed",
-            "minecraft:purple_bed",
             "minecraft:light_blue_bed",
-            "minecraft:white_bed",
-            "minecraft:gray_bed",
+            "minecraft:magenta_bed",
+            "minecraft:yellow_bed",
+            "minecraft:red_bed",
+            "minecraft:dragon_egg",
+            "minecraft:brown_bed",
+            "minecraft:light_gray_bed",
+            "minecraft:blue_bed",
             "minecraft:black_bed",
+            "minecraft:lime_bed",
+            "minecraft:purple_bed",
+            "minecraft:cyan_bed",
+            "minecraft:pink_bed",
             "minecraft:orange_bed",
-            "minecraft:yellow_bed"
+            "minecraft:white_bed",
+            "minecraft:gray_bed"
           ]
         },
         {
           "name": "Delay",
-          "value": 5
+          "value": 0
         },
         {
           "name": "Action",
@@ -4075,7 +4167,7 @@
         },
         {
           "name": "PrioritizeOverKillAura",
-          "value": false
+          "value": true
         },
         {
           "name": "Rotations",
@@ -4181,11 +4273,11 @@
             },
             {
               "name": "ResetThreshold",
-              "value": 2.0
+              "value": 1.0
             },
             {
               "name": "TicksUntilReset",
-              "value": 10
+              "value": 1
             },
             {
               "name": "ChangeLook",
@@ -4202,11 +4294,11 @@
             },
             {
               "name": "Color",
-              "value": 855572480
+              "value": -1610612736
             },
             {
               "name": "OutlineColor",
-              "value": 1694433280
+              "value": 0
             }
           ]
         }
@@ -4223,8 +4315,8 @@
           "name": "TargetedBlocks",
           "value": [
             "minecraft:trapped_chest",
-            "minecraft:chest",
-            "minecraft:ender_chest"
+            "minecraft:ender_chest",
+            "minecraft:chest"
           ]
         }
       ]
@@ -4293,7 +4385,7 @@
         },
         {
           "name": "Motion",
-          "value": 0.8
+          "value": 0.42
         }
       ]
     },
@@ -4306,7 +4398,7 @@
         },
         {
           "name": "Size",
-          "value": 0.4
+          "value": 0.0
         }
       ]
     },
@@ -4320,13 +4412,13 @@
         {
           "name": "Range",
           "value": {
-            "from": 3.0,
+            "from": 2.0,
             "to": 4.5
           }
         },
         {
           "name": "Delay",
-          "value": 20
+          "value": 0
         },
         {
           "name": "IgnoreOpenInventory",
@@ -4345,7 +4437,7 @@
             },
             {
               "name": "Priority",
-              "value": "Health"
+              "value": "HurtTime"
             }
           ]
         },
@@ -4453,11 +4545,11 @@
             },
             {
               "name": "ResetThreshold",
-              "value": 2.0
+              "value": 1.0
             },
             {
               "name": "TicksUntilReset",
-              "value": 5
+              "value": 1
             },
             {
               "name": "ChangeLook",
@@ -4487,8 +4579,8 @@
             {
               "name": "ClickDelay",
               "value": {
-                "from": 2,
-                "to": 4
+                "from": 1,
+                "to": 1
               }
             },
             {
@@ -4511,7 +4603,7 @@
             },
             {
               "name": "RequiresNoRotation",
-              "value": false
+              "value": true
             },
             {
               "name": "RequiresInventoryOpen",
@@ -4541,35 +4633,35 @@
         },
         {
           "name": "SlotItem-2",
-          "value": "Bow"
+          "value": "Rod"
         },
         {
           "name": "SlotItem-3",
-          "value": "Pickaxe"
+          "value": "Bow"
         },
         {
           "name": "SlotItem-4",
-          "value": "Axe"
+          "value": "Ignore"
         },
         {
           "name": "SlotItem-5",
-          "value": "None"
+          "value": "Ignore"
         },
         {
           "name": "SlotItem-6",
-          "value": "None"
+          "value": "Block"
         },
         {
           "name": "SlotItem-7",
-          "value": "Food"
+          "value": "Water"
         },
         {
           "name": "SlotItem-8",
-          "value": "Block"
+          "value": "Pearl"
         },
         {
           "name": "SlotItem-9",
-          "value": "Block"
+          "value": "Gapple"
         }
       ]
     },
@@ -4612,7 +4704,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         }
       ]
     },
@@ -4634,7 +4726,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": true
+          "value": false
         },
         {
           "name": "ClickScheduler",
@@ -4642,8 +4734,8 @@
             {
               "name": "CPS",
               "value": {
-                "from": 5,
-                "to": 8
+                "from": 41,
+                "to": 52
               }
             },
             {
@@ -4655,7 +4747,7 @@
               "value": [
                 {
                   "name": "Enabled",
-                  "value": true
+                  "value": false
                 },
                 {
                   "name": "Timing",
@@ -4670,15 +4762,15 @@
         },
         {
           "name": "Range",
-          "value": 3.19
+          "value": 3.0
         },
         {
           "name": "ScanExtraRange",
-          "value": 0.35
+          "value": 1.5
         },
         {
           "name": "WallRange",
-          "value": 0.0
+          "value": 3.0
         },
         {
           "name": "Target",
@@ -4693,7 +4785,7 @@
             },
             {
               "name": "Priority",
-              "value": "Health"
+              "value": "HurtTime"
             }
           ]
         },
@@ -4730,24 +4822,24 @@
                     {
                       "name": "HorizontalTurnSpeed",
                       "value": {
-                        "from": 180.0,
-                        "to": 180.0
+                        "from": 109.8,
+                        "to": 150.3
                       }
                     },
                     {
                       "name": "VerticalTurnSpeed",
                       "value": {
-                        "from": 180.0,
-                        "to": 180.0
+                        "from": 111.6,
+                        "to": 137.7
                       }
                     },
                     {
                       "name": "Steepness",
-                      "value": 10.0
+                      "value": 0.0
                     },
                     {
                       "name": "Midpoint",
-                      "value": 0.3
+                      "value": 0.0
                     }
                   ]
                 },
@@ -4801,11 +4893,11 @@
             },
             {
               "name": "ResetThreshold",
-              "value": 8.19
+              "value": 1.0
             },
             {
               "name": "TicksUntilReset",
-              "value": 5
+              "value": 1
             },
             {
               "name": "ChangeLook",
@@ -4815,22 +4907,22 @@
         },
         {
           "name": "AimTiming",
-          "value": "Snap"
+          "value": "Normal"
         },
         {
           "name": "PointTracker",
           "value": [
             {
               "name": "PredictClientMovement",
-              "value": 1
+              "value": 0
             },
             {
               "name": "TimeEnemyOffset",
-              "value": 0.25
+              "value": 0.0
             },
             {
               "name": "GaussianOffset",
-              "value": true
+              "value": false
             },
             {
               "name": "OutOfBox",
@@ -4838,15 +4930,15 @@
             },
             {
               "name": "ShrinkBox",
-              "value": 0.05
+              "value": 0.0
             },
             {
               "name": "HighestPoint",
-              "value": "Body"
+              "value": "Head"
             },
             {
               "name": "LowestPoint",
-              "value": "Body"
+              "value": "Feet"
             }
           ]
         },
@@ -4859,7 +4951,7 @@
             },
             {
               "name": "SafeRange",
-              "value": 3.6
+              "value": 4.0
             }
           ]
         },
@@ -4873,7 +4965,7 @@
         },
         {
           "name": "AttackShielding",
-          "value": false
+          "value": true
         },
         {
           "name": "WhileUsingItem",
@@ -4888,7 +4980,7 @@
           "value": [
             {
               "name": "Enabled",
-              "value": false
+              "value": true
             },
             {
               "name": "BlockMode",
@@ -4900,15 +4992,15 @@
             },
             {
               "name": "TickOff",
-              "value": 5
+              "value": 0
             },
             {
               "name": "TickOn",
-              "value": 5
+              "value": 0
             },
             {
               "name": "OnScanRange",
-              "value": false
+              "value": true
             },
             {
               "name": "OnlyWhenInDanger",
@@ -4925,15 +5017,15 @@
             },
             {
               "name": "BalanceRecoverIncrement",
-              "value": 1.0
+              "value": 0.0
             },
             {
               "name": "BalanceMaxValue",
-              "value": 20
+              "value": 0
             },
             {
               "name": "MaxTicksAtATime",
-              "value": 3
+              "value": 1
             },
             {
               "name": "PauseOfFlag",
@@ -4962,11 +5054,11 @@
           "value": [
             {
               "name": "Enabled",
-              "value": false
+              "value": true
             },
             {
               "name": "AdditionalRange",
-              "value": 2.0
+              "value": 1.5
             },
             {
               "name": "ClickScheduler",
@@ -4974,8 +5066,8 @@
                 {
                   "name": "CPS",
                   "value": {
-                    "from": 5,
-                    "to": 8
+                    "from": 20,
+                    "to": 20
                   }
                 },
                 {
@@ -4991,7 +5083,7 @@
           "value": [
             {
               "name": "Enabled",
-              "value": true
+              "value": false
             },
             {
               "name": "Mode",
@@ -5039,7 +5131,7 @@
         },
         {
           "name": "SimulateInventoryClosing",
-          "value": true
+          "value": false
         }
       ]
     },
@@ -5052,7 +5144,7 @@
         },
         {
           "name": "Locked",
-          "value": false
+          "value": true
         },
         {
           "name": "Mode",
@@ -5072,7 +5164,7 @@
               "value": [
                 {
                   "name": "Motion",
-                  "value": 0.8
+                  "value": 1.4
                 }
               ]
             }
@@ -5090,7 +5182,7 @@
         },
         {
           "name": "Locked",
-          "value": false
+          "value": true
         },
         {
           "name": "Mode",
@@ -5283,11 +5375,11 @@
         },
         {
           "name": "Speed",
-          "value": 0.32
+          "value": 0.1
         },
         {
           "name": "DisableOnSetback",
-          "value": false
+          "value": true
         }
       ]
     },
@@ -5296,11 +5388,11 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         },
         {
           "name": "Mode",
-          "active": "SpoofGround",
+          "active": "Hoplite",
           "value": [],
           "choices": {
             "SpoofGround": {
@@ -5318,7 +5410,16 @@
             },
             "Packet": {
               "name": "Packet",
-              "value": []
+              "value": [
+                {
+                  "name": "PacketType",
+                  "value": "Full"
+                },
+                {
+                  "name": "Always",
+                  "value": false
+                }
+              ]
             },
             "MLG": {
               "name": "MLG",
@@ -5431,11 +5532,11 @@
                     },
                     {
                       "name": "ResetThreshold",
-                      "value": 2.0
+                      "value": 1.0
                     },
                     {
                       "name": "TicksUntilReset",
-                      "value": 5
+                      "value": 1
                     },
                     {
                       "name": "ChangeLook",
@@ -5461,23 +5562,33 @@
               "name": "Verus",
               "value": []
             },
+            "ForceJump": {
+              "name": "ForceJump",
+              "value": [
+                {
+                  "name": "BlockDistance",
+                  "value": 1.0
+                },
+                {
+                  "name": "FallDistance",
+                  "value": 3.35
+                },
+                {
+                  "name": "JumpHeight",
+                  "value": 0.42
+                }
+              ]
+            },
             "Blink": {
               "name": "Blink",
               "value": [
                 {
-                  "name": "FallDistance",
-                  "value": {
-                    "from": 1.0,
-                    "to": 20.0
-                  }
+                  "name": "TriggerFallDistance",
+                  "value": 2.5
                 },
                 {
-                  "name": "SpoofDistance",
-                  "value": 0.01
-                },
-                {
-                  "name": "OnGroundTicks",
-                  "value": 10
+                  "name": "MaximumFallDistance",
+                  "value": 20.0
                 }
               ]
             },
@@ -5495,7 +5606,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         }
       ]
     },
@@ -5517,7 +5628,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         }
       ]
     },
@@ -5644,11 +5755,11 @@
                     },
                     {
                       "name": "ResetThreshold",
-                      "value": 2.0
+                      "value": 1.0
                     },
                     {
                       "name": "TicksUntilReset",
-                      "value": 5
+                      "value": 1
                     },
                     {
                       "name": "ChangeLook",
@@ -5668,14 +5779,14 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         },
         {
           "name": "Blocking",
           "value": [
             {
               "name": "Enabled",
-              "value": false
+              "value": true
             },
             {
               "name": "Forward",
@@ -5728,11 +5839,11 @@
             },
             {
               "name": "NoInteract",
-              "value": true
+              "value": false
             },
             {
               "name": "Mode",
-              "active": "None",
+              "active": "Grim2860-1.8",
               "value": [],
               "choices": {
                 "None": {
@@ -5757,7 +5868,7 @@
           "value": [
             {
               "name": "Enabled",
-              "value": false
+              "value": true
             },
             {
               "name": "Forward",
@@ -5769,7 +5880,7 @@
             },
             {
               "name": "NoInteract",
-              "value": true
+              "value": false
             }
           ]
         },
@@ -5791,7 +5902,7 @@
           "value": [
             {
               "name": "Enabled",
-              "value": true
+              "value": false
             },
             {
               "name": "Multiplier",
@@ -5804,7 +5915,7 @@
           "value": [
             {
               "name": "Enabled",
-              "value": true
+              "value": false
             },
             {
               "name": "Multiplier",
@@ -5817,7 +5928,7 @@
           "value": [
             {
               "name": "Enabled",
-              "value": true
+              "value": false
             },
             {
               "name": "Multiplier",
@@ -5845,11 +5956,11 @@
         },
         {
           "name": "MiningFatigue",
-          "value": true
+          "value": false
         },
         {
           "name": "OnAir",
-          "value": true
+          "value": false
         },
         {
           "name": "Water",
@@ -5862,7 +5973,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         },
         {
           "name": "Locked",
@@ -5870,11 +5981,15 @@
         },
         {
           "name": "Mode",
-          "active": "Air",
+          "active": "Grim2361",
           "value": [],
           "choices": {
             "Air": {
               "name": "Air",
+              "value": []
+            },
+            "Grim2361": {
+              "name": "Grim2361",
               "value": []
             }
           },
@@ -5903,7 +6018,7 @@
         },
         {
           "name": "UseNotification",
-          "value": false
+          "value": true
         }
       ]
     },
@@ -5916,7 +6031,7 @@
         },
         {
           "name": "Mode",
-          "active": "Nuke",
+          "active": "OneByOne",
           "value": [],
           "choices": {
             "OneByOne": {
@@ -5924,11 +6039,11 @@
               "value": [
                 {
                   "name": "Range",
-                  "value": 5.0
+                  "value": 4.5
                 },
                 {
                   "name": "WallRange",
-                  "value": 0.0
+                  "value": 4.5
                 },
                 {
                   "name": "ForceImmediateBreak",
@@ -6038,11 +6153,11 @@
                     },
                     {
                       "name": "ResetThreshold",
-                      "value": 2.0
+                      "value": 1.0
                     },
                     {
                       "name": "TicksUntilReset",
-                      "value": 5
+                      "value": 1
                     },
                     {
                       "name": "ChangeLook",
@@ -6106,7 +6221,7 @@
                 },
                 {
                   "name": "DoNotStop",
-                  "value": true
+                  "value": false
                 },
                 {
                   "name": "HighlightBlocks",
@@ -6134,7 +6249,7 @@
           "value": [
             {
               "name": "Enabled",
-              "value": false
+              "value": true
             },
             {
               "name": "Visual",
@@ -6151,7 +6266,7 @@
             },
             {
               "name": "Size",
-              "value": 1
+              "value": 3
             }
           ]
         }
@@ -6179,7 +6294,7 @@
         },
         {
           "name": "Delay",
-          "value": 500
+          "value": 0
         }
       ]
     },
@@ -6226,8 +6341,8 @@
             {
               "name": "CPS",
               "value": {
-                "from": 5,
-                "to": 8
+                "from": 20,
+                "to": 20
               }
             },
             {
@@ -6352,11 +6467,11 @@
             },
             {
               "name": "ResetThreshold",
-              "value": 2.0
+              "value": 1.0
             },
             {
               "name": "TicksUntilReset",
-              "value": 5
+              "value": 1
             },
             {
               "name": "ChangeLook",
@@ -6375,11 +6490,11 @@
         },
         {
           "name": "CombatReach",
-          "value": 4.2
+          "value": 3.0
         },
         {
           "name": "BlockReach",
-          "value": 5.0
+          "value": 4.5
         }
       ]
     },
@@ -6388,7 +6503,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         },
         {
           "name": "Health",
@@ -6396,27 +6511,27 @@
         },
         {
           "name": "Speed",
-          "value": 100
+          "value": 24
         },
         {
           "name": "Timer",
-          "value": 0.5
+          "value": 1.0
         },
         {
           "name": "NotInTheAir",
-          "value": true
+          "value": false
         },
         {
           "name": "NotDuringMove",
-          "value": true
+          "value": false
         },
         {
           "name": "NotDuringRegeneration",
-          "value": true
+          "value": false
         },
         {
           "name": "DoNotCauseHunger",
-          "value": false
+          "value": true
         },
         {
           "name": "PacketType",
@@ -6442,7 +6557,7 @@
         },
         {
           "name": "Mode",
-          "active": "Instant",
+          "active": "Strict",
           "value": [],
           "choices": {
             "Instant": {
@@ -6454,7 +6569,7 @@
                 },
                 {
                   "name": "SimulateFalling",
-                  "value": true
+                  "value": false
                 }
               ]
             },
@@ -6463,7 +6578,7 @@
               "value": [
                 {
                   "name": "Motion",
-                  "value": 1.0
+                  "value": 5.0
                 }
               ]
             },
@@ -6472,7 +6587,7 @@
               "value": [
                 {
                   "name": "Factor",
-                  "value": 1.0
+                  "value": 0.42
                 }
               ]
             }
@@ -6490,7 +6605,7 @@
         },
         {
           "name": "Mode",
-          "active": "Safe",
+          "active": "None",
           "value": [],
           "choices": {
             "None": {
@@ -6562,11 +6677,11 @@
         },
         {
           "name": "RotationMode",
-          "value": "GodBridge"
+          "value": "NearestRotation"
         },
         {
           "name": "AimTiming",
-          "value": "Normal"
+          "value": "OnTick"
         },
         {
           "name": "Technique",
@@ -6582,11 +6697,11 @@
               "value": [
                 {
                   "name": "BlocksToEagle",
-                  "value": 0
+                  "value": 2
                 },
                 {
                   "name": "EdgeDistance",
-                  "value": 0.01
+                  "value": 0.5
                 }
               ]
             },
@@ -6598,20 +6713,20 @@
                   "value": [
                     {
                       "name": "Enabled",
-                      "value": true
+                      "value": false
                     },
                     {
                       "name": "StraightSpeed",
                       "value": {
-                        "from": 0.4,
-                        "to": 0.5
+                        "from": 0.56,
+                        "to": 0.56
                       }
                     },
                     {
                       "name": "DiagonalSpeed",
                       "value": {
-                        "from": 0.3,
-                        "to": 0.3
+                        "from": 0.56,
+                        "to": 0.56
                       }
                     }
                   ]
@@ -6626,7 +6741,7 @@
           "value": [
             {
               "name": "Enabled",
-              "value": true
+              "value": false
             }
           ]
         },
@@ -6635,7 +6750,7 @@
           "value": [
             {
               "name": "Enabled",
-              "value": true
+              "value": false
             },
             {
               "name": "WhenGoingDiagonal",
@@ -6647,11 +6762,11 @@
             },
             {
               "name": "UseDelay",
-              "value": true
+              "value": false
             },
             {
               "name": "MaxBlocks",
-              "value": 8
+              "value": 3
             }
           ]
         },
@@ -6665,8 +6780,8 @@
             {
               "name": "EdgeDistance",
               "value": {
-                "from": 0.45,
-                "to": 0.5
+                "from": 0.35,
+                "to": 0.35
               }
             }
           ]
@@ -6685,11 +6800,11 @@
               "value": [
                 {
                   "name": "Motion",
-                  "value": 0.42
+                  "value": 0.41
                 },
                 {
                   "name": "TriggerHeight",
-                  "value": 0.78
+                  "value": 0.98
                 }
               ]
             },
@@ -6698,7 +6813,7 @@
               "value": [
                 {
                   "name": "Trigger",
-                  "value": 0.1
+                  "value": 0.16
                 }
               ]
             }
@@ -6728,7 +6843,7 @@
               "value": [
                 {
                   "name": "Ticks",
-                  "value": 3
+                  "value": 2
                 }
               ]
             },
@@ -6754,7 +6869,7 @@
         },
         {
           "name": "SameY",
-          "value": false
+          "value": true
         },
         {
           "name": "Rotations",
@@ -6770,8 +6885,8 @@
                     {
                       "name": "HorizontalTurnSpeed",
                       "value": {
-                        "from": 120.0,
-                        "to": 140.0
+                        "from": 180.0,
+                        "to": 180.0
                       }
                     },
                     {
@@ -6856,15 +6971,15 @@
             },
             {
               "name": "FixVelocity",
-              "value": true
+              "value": false
             },
             {
               "name": "ResetThreshold",
-              "value": 2.0
+              "value": 1.0
             },
             {
               "name": "TicksUntilReset",
-              "value": 5
+              "value": 1
             },
             {
               "name": "ChangeLook",
@@ -6874,7 +6989,7 @@
         },
         {
           "name": "IgnoreOpenInventory",
-          "value": true
+          "value": false
         },
         {
           "name": "SimulatePlacementAttempts",
@@ -6889,19 +7004,19 @@
                 {
                   "name": "CPS",
                   "value": {
-                    "from": 5,
-                    "to": 8
+                    "from": 100,
+                    "to": 100
                   }
                 },
                 {
                   "name": "Technique",
-                  "value": "Stabilized"
+                  "value": "Drag"
                 }
               ]
             },
             {
               "name": "FailedAttemptsOnly",
-              "value": false
+              "value": true
             }
           ]
         },
@@ -6914,7 +7029,7 @@
             },
             {
               "name": "SneakTime",
-              "value": 1
+              "value": 2
             }
           ]
         },
@@ -6940,7 +7055,7 @@
             },
             {
               "name": "SlowSpeed",
-              "value": 0.6
+              "value": 1.1
             }
           ]
         },
@@ -6953,7 +7068,7 @@
             },
             {
               "name": "SpeedLimit",
-              "value": 0.12
+              "value": 0.11
             }
           ]
         },
@@ -6962,7 +7077,7 @@
           "value": [
             {
               "name": "Enabled",
-              "value": false
+              "value": true
             }
           ]
         },
@@ -6986,7 +7101,7 @@
         },
         {
           "name": "Exploit",
-          "active": "Log4jTell",
+          "active": "Completion",
           "value": [],
           "choices": {
             "Completion": {
@@ -6998,11 +7113,11 @@
                 },
                 {
                   "name": "Packets",
-                  "value": 5
+                  "value": 3
                 },
                 {
                   "name": "Length",
-                  "value": 3000
+                  "value": 2032
                 }
               ]
             },
@@ -7011,7 +7126,7 @@
               "value": [
                 {
                   "name": "Packets",
-                  "value": 6
+                  "value": 12
                 }
               ]
             },
@@ -7099,30 +7214,30 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         },
         {
           "name": "SwapBackDelay",
-          "value": 5
+          "value": 1
         },
         {
           "name": "PreferGappleHealthThreshold",
-          "value": 9.0
+          "value": 8.0
         },
         {
           "name": "PreferNotchAppleHealthThreshold",
-          "value": 2.0
+          "value": 8.0
         },
         {
           "name": "PreferHealthPotHealthThreshold",
-          "value": 12.0
+          "value": 8.0
         },
         {
           "name": "SilentOffhand",
           "value": [
             {
               "name": "Enabled",
-              "value": true
+              "value": false
             },
             {
               "name": "RenderSlot",
@@ -7148,7 +7263,7 @@
             },
             {
               "name": "MinHunger",
-              "value": 15
+              "value": 19
             }
           ]
         }
@@ -7163,7 +7278,7 @@
         },
         {
           "name": "Mode",
-          "active": "Vanilla",
+          "active": "Legit",
           "value": [],
           "choices": {
             "Legit": {
@@ -7193,8 +7308,8 @@
         {
           "name": "Delay",
           "value": {
-            "from": 0,
-            "to": 2
+            "from": 5,
+            "to": 5
           }
         }
       ]
@@ -7212,7 +7327,7 @@
         },
         {
           "name": "Mode",
-          "active": "LegitHop",
+          "active": "GrimCollide",
           "value": [],
           "choices": {
             "LegitHop": {
@@ -7231,11 +7346,11 @@
                     },
                     {
                       "name": "HorizontalAcceleration",
-                      "value": 0.02
+                      "value": 0.0
                     },
                     {
                       "name": "HorizontalJumpOff",
-                      "value": 0.3
+                      "value": 0.19
                     },
                     {
                       "name": "TicksToBoostOff",
@@ -7248,11 +7363,11 @@
                   "value": [
                     {
                       "name": "Enabled",
-                      "value": false
+                      "value": true
                     },
                     {
                       "name": "JumpHeight",
-                      "value": 0.42
+                      "value": 0.0
                     },
                     {
                       "name": "Pulldown",
@@ -7274,18 +7389,18 @@
                 },
                 {
                   "name": "AvoidEdgeBump",
-                  "value": true
+                  "value": false
                 },
                 {
                   "name": "Strafe",
                   "value": [
                     {
                       "name": "Enabled",
-                      "value": true
+                      "value": false
                     },
                     {
                       "name": "Strength",
-                      "value": 0.9
+                      "value": 1.0
                     },
                     {
                       "name": "CustomSpeed",
@@ -7293,11 +7408,11 @@
                     },
                     {
                       "name": "Speed",
-                      "value": 0.28
+                      "value": 0.71
                     },
                     {
                       "name": "VelocityTimeout",
-                      "value": 10
+                      "value": 0
                     },
                     {
                       "name": "StrafeKnock",
@@ -7320,11 +7435,11 @@
               "value": [
                 {
                   "name": "HorizontalAcceleration",
-                  "value": true
+                  "value": false
                 },
                 {
                   "name": "VerticalAcceleration",
-                  "value": true
+                  "value": false
                 }
               ]
             },
@@ -7347,18 +7462,57 @@
             },
             "GrimCollide": {
               "name": "GrimCollide",
-              "value": []
+              "value": [
+                {
+                  "name": "BoostSpeed",
+                  "value": 0.08
+                }
+              ]
             }
           },
           "valueType": "CHOICE"
         },
         {
           "name": "NotDuringScaffold",
-          "value": true
+          "value": false
         },
         {
           "name": "NotWhileSneaking",
           "value": false
+        }
+      ]
+    },
+    {
+      "name": "Spider",
+      "value": [
+        {
+          "name": "Enabled",
+          "value": false
+        },
+        {
+          "name": "Locked",
+          "value": true
+        },
+        {
+          "name": "Mode",
+          "active": "Vanilla",
+          "value": [],
+          "choices": {
+            "Vanilla": {
+              "name": "Vanilla",
+              "value": [
+                {
+                  "name": "Motion",
+                  "value": 0.3
+                }
+              ]
+            },
+            "Vulcan": {
+              "name": "Vulcan",
+              "value": []
+            }
+          },
+          "valueType": "CHOICE"
         }
       ]
     },
@@ -7383,11 +7537,11 @@
         },
         {
           "name": "StopOnGround",
-          "value": false
+          "value": true
         },
         {
           "name": "StopOnAir",
-          "value": false
+          "value": true
         }
       ]
     },
@@ -7400,7 +7554,7 @@
         },
         {
           "name": "Mode",
-          "active": "Instant",
+          "active": "Legit",
           "value": [],
           "choices": {
             "Instant": {
@@ -7414,7 +7568,7 @@
                   "name": "SimulateJumpOrder",
                   "value": {
                     "from": 0,
-                    "to": 5
+                    "to": 2
                   }
                 },
                 {
@@ -7448,11 +7602,11 @@
         },
         {
           "name": "Locked",
-          "value": false
+          "value": true
         },
         {
           "name": "Strength",
-          "value": 0.2
+          "value": 0.1
         },
         {
           "name": "StrictMovement",
@@ -7469,11 +7623,11 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         },
         {
           "name": "Mode",
-          "active": "WTap",
+          "active": "SprintTap",
           "value": [],
           "choices": {
             "Packet": {
@@ -7487,7 +7641,7 @@
                   "name": "ReSprint",
                   "value": {
                     "from": 0,
-                    "to": 1
+                    "to": 0
                   }
                 }
               ]
@@ -7516,7 +7670,7 @@
         },
         {
           "name": "HurtTime",
-          "value": 10
+          "value": 0
         },
         {
           "name": "Chance",
@@ -7538,7 +7692,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         }
       ]
     },
@@ -7551,7 +7705,7 @@
         },
         {
           "name": "Color",
-          "value": true
+          "value": false
         },
         {
           "name": "Prefix",
@@ -7568,14 +7722,14 @@
         },
         {
           "name": "Locked",
-          "value": false
+          "value": true
         },
         {
           "name": "FastClimb",
           "value": [
             {
               "name": "Enabled",
-              "value": true
+              "value": false
             },
             {
               "name": "Mode",
@@ -7587,7 +7741,7 @@
                   "value": [
                     {
                       "name": "Motion",
-                      "value": 0.2872
+                      "value": 0.29
                     }
                   ]
                 },
@@ -7605,11 +7759,11 @@
           "value": [
             {
               "name": "Enabled",
-              "value": true
+              "value": false
             },
             {
               "name": "Slipperiness",
-              "value": 0.6
+              "value": 1.0
             },
             {
               "name": "Motion",
@@ -7620,7 +7774,7 @@
                 },
                 {
                   "name": "Motion",
-                  "value": 0.5
+                  "value": 1.5
                 }
               ]
             }
@@ -7645,7 +7799,7 @@
               "value": [
                 {
                   "name": "Speed",
-                  "value": 2.0
+                  "value": 10.0
                 }
               ]
             },
@@ -7654,11 +7808,11 @@
               "value": [
                 {
                   "name": "NormalSpeed",
-                  "value": 0.5
+                  "value": 0.9
                 },
                 {
                   "name": "NormalSpeedTicks",
-                  "value": 20
+                  "value": 50
                 },
                 {
                   "name": "BoostSpeed",
@@ -7666,7 +7820,7 @@
                 },
                 {
                   "name": "BoostSpeedTicks",
-                  "value": 20
+                  "value": 25
                 },
                 {
                   "name": "OnMove",
@@ -7679,7 +7833,7 @@
               "value": [
                 {
                   "name": "BoostSpeed",
-                  "value": 1.3
+                  "value": 10.0
                 },
                 {
                   "name": "SlowSpeed",
@@ -7687,7 +7841,7 @@
                 },
                 {
                   "name": "TimeBoostTicks",
-                  "value": 12
+                  "value": 60
                 },
                 {
                   "name": "AccountTimerValues",
@@ -7717,15 +7871,15 @@
         },
         {
           "name": "TimerBalanceLimit",
-          "value": 20.0
+          "value": 7.77
         },
         {
           "name": "NormalSpeed",
-          "value": 0.9
+          "value": 0.95
         },
         {
           "name": "BoostTimer",
-          "value": 2.0
+          "value": 10.0
         },
         {
           "name": "BalanceRecoveryIncrement",
@@ -7733,11 +7887,11 @@
         },
         {
           "name": "DistanceToSpeedUp",
-          "value": 3.5
+          "value": 4.0
         },
         {
           "name": "DistanceToStartWorking",
-          "value": 100.0
+          "value": 77.77
         },
         {
           "name": "PauseOnFlag",
@@ -7754,7 +7908,7 @@
         },
         {
           "name": "Locked",
-          "value": false
+          "value": true
         },
         {
           "name": "Vertical",
@@ -7784,7 +7938,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         },
         {
           "name": "Locked",
@@ -7792,7 +7946,7 @@
         },
         {
           "name": "Mode",
-          "active": "Modify",
+          "active": "JumpReset",
           "value": [],
           "choices": {
             "Modify": {
@@ -7800,7 +7954,7 @@
               "value": [
                 {
                   "name": "Horizontal",
-                  "value": 0.45
+                  "value": -0.9
                 },
                 {
                   "name": "Vertical",
@@ -7821,11 +7975,11 @@
               "value": [
                 {
                   "name": "Delay",
-                  "value": 2
+                  "value": 3
                 },
                 {
                   "name": "Strength",
-                  "value": 1.0
+                  "value": 0.5
                 },
                 {
                   "name": "UntilGround",
@@ -7838,7 +7992,7 @@
               "value": [
                 {
                   "name": "AAC4.4.2MotionReducer",
-                  "value": 0.62
+                  "value": 0.25
                 }
               ]
             },
@@ -7851,11 +8005,11 @@
               "value": [
                 {
                   "name": "HReduce",
-                  "value": 0.3
+                  "value": 0.64
                 },
                 {
                   "name": "AttacksToWork",
-                  "value": 4
+                  "value": 1
                 }
               ]
             },
@@ -7871,7 +8025,7 @@
                     },
                     {
                       "name": "HitsUntilJump",
-                      "value": 2
+                      "value": 0
                     }
                   ]
                 },
@@ -7884,7 +8038,7 @@
                     },
                     {
                       "name": "UntilJump",
-                      "value": 0
+                      "value": 2
                     }
                   ]
                 }
@@ -7902,7 +8056,7 @@
         },
         {
           "name": "PauseOnFlag",
-          "value": 0
+          "value": 1
         }
       ]
     },
@@ -7915,11 +8069,11 @@
         },
         {
           "name": "Timer",
-          "value": 0.6
+          "value": 1.0
         },
         {
           "name": "BadEffects",
-          "value": true
+          "value": false
         },
         {
           "name": "Fire",
@@ -7931,11 +8085,11 @@
         },
         {
           "name": "NotDuringMove",
-          "value": false
+          "value": true
         },
         {
           "name": "NotDuringRegeneration",
-          "value": false
+          "value": true
         },
         {
           "name": "PacketType",
@@ -7944,14 +8098,20 @@
       ]
     }
   ],
-  "author": "1zuna",
-  "date": "02/04/2024",
-  "time": "21:28:19",
-  "clientVersion": "0.2.0",
-  "clientCommit": "git-e46d279",
-  "serverAddress": "stray.gg",
-  "protocolName": "1.20.4",
-  "protocolVersion": 765,
+  "author": "vardenixxxas",
+  "date": "17/04/2024",
+  "time": "23:04:21",
+  "clientVersion": "0.3.1",
+  "clientCommit": "git-38b8ce9",
+  "serverAddress": "anticheat-test.com",
+  "protocolName": "1.20-1.20.1",
+  "protocolVersion": 763,
   "type": "Rage",
-  "status": "Bypassing"
+  "status": "Bypassing",
+   "chat": [
+    "Update",
+    "",
+	"if you want to fly with the scaffold without using blocks",
+    "bind blink with scaffold or without scaffold, have fun : )"
+   ]
 }
